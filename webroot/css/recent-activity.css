@@ -1,0 +1,76 @@
+.activity-name {
+    font-size: 10pt;
+}
+
+.activity-user-img{
+    height: 38px;
+    width: 38px;
+}
+
+.activity-content{
+    font-size: 10pt;
+}
+
+.activity-item {
+    transition: background-color 0.5s;
+}
+
+.activity-item a {
+    color: inherit;
+    underline:inherit;
+}
+
+.activity-item a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.activity-item:hover {
+    cursor: pointer;
+    background-color: #b0d9df;
+    transition: background-color 0.5s;
+}
+
+/*.activity-arrow-left {*/
+    /*border-top-color: rgba(0,0,0,.03) !important;*/
+    /*border-bottom-color: rgba(0,0,0,.03) !important;*/
+    /*border-left-color: rgba(0,0,0,.03) !important;*/
+    /*border-right-color: rgba(0,0,0,.5) !important;*/
+/*}*/
+
+/*.activity-arrow-right {*/
+    /*border-top-color: rgba(0,0,0,.03) !important;*/
+    /*border-bottom-color: rgba(0,0,0,.03) !important;*/
+    /*border-right-color: rgba(0,0,0,.03) !important;*/
+    /*border-left-color: rgba(0,0,0,.5) !important;*/
+/*}*/
+
+.activity-controls .btn-group button {
+    border-radius: 0px;
+    /*border-top-left-radius: 0px;*/
+    /*border-top-right-radius: 0px;*/
+    background-color: #e8e8e8;
+    border: solid gray 1px;
+    color: black;
+}
+
+.activity-controls .btn-group button img{
+    height: 30px;
+}
+
+.activity-controls .btn-group button:active:enabled img{
+    filter: invert(100%);
+}
+
+.activity-footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

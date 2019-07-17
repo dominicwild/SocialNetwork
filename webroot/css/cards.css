@@ -1,0 +1,82 @@
+.event {
+    width:100%;
+}
+
+.event-post-join-leave-btn {
+    width: 65%;
+}
+
+.participant-image {
+    height: 50px;
+    width: 95%;
+    margin-top: 2px;
+}
+
+.event-image {
+    height: 144px;
+    width: 100%;
+    display: block;
+}
+
+.event .event-image {
+    height:auto;
+    max-height: 210px;
+}
+
+.event-cards .event .event-image {
+    height: 144px;
+}
+
+.event .time {
+    font-size: 11pt;
+}
+
+.upcoming-events-title {
+    border-color: rgb(203, 203, 203);
+}
+
+.group .card-body {
+    transition: background-color .5s;
+}
+
+.group:hover .card-body{
+    background-color: rgb(235, 235, 235);
+}
+
+.event .card-body {
+    transition: background-color .5s;
+}
+
+.event-cards .event:hover .card-body{
+    background-color: rgb(235, 235, 235);
+}
+
+.event-cards .event {
+    cursor: pointer;
+}
+
+.group-link {
+    color: inherit;
+    text-decoration: none;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.group-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.join-btn {
+    /*transition: all 0.5s;*/
+}
+
+.group {
+    width: 100%;
+}
+
+.card-body .btn-group {
+    width: 25%;
+}

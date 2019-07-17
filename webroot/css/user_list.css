@@ -1,0 +1,64 @@
+.user-list-icon {
+    width: 73px;
+    height: 73px;
+}
+
+.icon-col {
+    width: 11%;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.icon-col::before {
+    display:none;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: -9999999px;
+    left: -9999999px;
+}
+
+.icon-col::after {
+    height: 0px;
+    width: 0px;
+    display:none;
+    position: absolute;
+    top: -9999999px;
+    left: -9999999px;
+}
+
+.buttons-col {
+    width: 21%;
+    border-left: solid 1px lightgray;
+}
+
+.dataTables_info {
+    color: #6c757d;
+    font-size: 10pt;
+}
+
+.user-list-table {
+    border: solid 1px lightgray;
+    /*border-collapse: collapse;*/
+}
+
+.user-list-btn {
+    margin-bottom: 8px;
+}
+
+.user-list-table tr td:hover {
+    transition: all 0.5s;
+}
+
+.user-list-table tr:hover {
+    transition: all 0.5s;
+    background-color: #feffdd !important;
+}
+
+.user-list-table tr {
+    transition: all 0.5s;
+}
+
+.user-list-table th {
+    /*padding: 2px;*/
+    /*border-collapse: collapse;*/
+}

@@ -1,0 +1,13 @@
+
+.reported-post-view button{
+    border-radius: 0px 0px .25rem .25rem;
+    transition: all 0.5s;
+}
+
+.report-reason-body {
+    background-color: rgba(255, 165, 0, 0.25);
+}
+
+.reported-post {
+    background-color: rgba(30, 144, 255, 0.26);
+}

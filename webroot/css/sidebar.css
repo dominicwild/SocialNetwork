@@ -1,0 +1,50 @@
+.menu-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    height: calc(100vh);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: solid #e2e2e2 2px;
+    border-right: solid #e2e2e2 2px;
+    border-bottom: solid #e2e2e2 2px;
+    background-color: #efefef;
+}
+
+.menu-sidebar .nav-link {
+    color: black;
+}
+
+.menu-sidebar .outline.nav-link:hover {
+    color: dodgerblue;
+    /*fill: none;*/
+}
+
+.menu-sidebar .outline.nav-link.active {
+    color: dodgerblue;
+    /*fill: none;*/
+}
+
+.nav-link:hover  .si-glyph  path{
+    fill: dodgerblue;
+}
+
+.nav-link.active  .si-glyph  path{
+    fill: dodgerblue;
+}
+
+.nav-link:hover {
+    fill: dodgerblue;
+    color: dodgerblue;
+}
+
+.nav-link.active {
+    fill: dodgerblue;
+    color: dodgerblue;
+}
+
+.sidebar-icon {
+    width: 32px;
+    height: 32px;
+}

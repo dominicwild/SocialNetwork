@@ -1,0 +1,61 @@
+.join-large-btn {
+    width: 50%;
+    /*transition: all 0.5s;*/
+}
+.leave-large-btn {
+    width: 50%;
+    /*transition: all 0.5s;*/
+}
+
+.group-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.group-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.participant-image {
+    height: 50px;
+    width: 95%;
+    margin-top: 2px;
+}
+
+.group-delete-btn img {
+    height: 25px;
+}
+
+.cancelBtn img {
+    height: 25px;
+}
+
+.confirmBtn img {
+    height: 25px;
+}
+
+.delete-btn-container {
+    width:25%;
+}
+
+.group-delete-btn {
+    padding: 1px;
+    width:100%;
+}
+
+.group-right .description {
+    white-space: pre-wrap;
+}
+
+.group-btn-group {
+    width: 40%;
+}
+
+.cancelBtn {
+    transition: all 0.5s;
+}
+
+.confirmBtn {
+    transition: all 1s ease 0s;
+}

@@ -1,0 +1,28 @@
+.col-12 table tbody tr th {
+    text-align: center;
+    width: 10%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.user-delete-btn{
+    float: right;
+}
+
+.cancelBtn {
+    width: 100%;
+    transition: all 1s ease 0s;
+}
+
+.card-body p {
+    white-space: pre-wrap;
+}
+
+.profile-btn {
+    transition: all 1s ease 0s;
+    border-radius: .25rem;
+}
+
+.profile-btn img {
+    height: 25px;
+}

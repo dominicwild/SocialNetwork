@@ -1,0 +1,13 @@
+.end-date-link {
+    color: dodgerblue;
+}
+
+.end-date-link:hover {
+    /*text-decoration: underline;*/
+    cursor: pointer;
+    color: #1e6bd6;
+}
+
+.end-date-time {
+    /*display: none;*/
+}

@@ -1,0 +1,368 @@
+
+.commentContent{
+    white-space: pre-wrap;
+    display:block;
+    margin-top: 2px;
+}
+
+.image-cancel{
+    position: absolute;
+    top: 4%;
+    left: 82%;
+    cursor: pointer;
+    /*transition: all 0.5s;*/
+    width: 15%;
+    z-index: 5;
+}
+
+.comment-header {
+    font-size: 12pt;
+    padding-top: 6px;
+}
+
+.image-cancel:hover{
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    /*width: calc(15% + 5%);*/
+    /*top: calc(4% - 2%);*/
+    /*left: calc(82% - 5%);*/
+}
+.preview-image{
+    height:100px;
+    max-width:100%;
+}
+
+.postArea.emojionearea {
+    /*overflow:hidden;*/
+}
+
+.comment .btn-group {
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.emojionearea.contentArea {
+    white-space: initial;
+}
+
+.comment:hover .btn-group {
+    opacity: 1;
+}
+
+.emojionearea-picker {
+    white-space: initial;
+}
+
+.emojionearea > .emojionearea-editor {
+    min-height: 36px;
+    max-height: 1200px;
+    width: 100%;
+}
+
+.preview-image-container{
+    border: black;
+    border-radius: 4px;
+    background-color: #8fccff;
+    margin: 3px;
+    width: 24%;
+    float: left;
+    position: relative;
+}
+#drop-area {
+    border: #00A5E3;
+    border-style: dashed;
+    transition: background-color 0.5s;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+.drop-hightlight {
+
+    background-color: rgb(146, 253, 255);
+}
+.drop-unhightlight {
+    background-color: rgba(218, 252, 255, 0.53);
+}
+#fileInput {
+    display:none;
+}
+.loadMoreBtn {
+    border-radius: 0;
+    transition:background-color 0.5s ease;
+    z-index: 3;
+}
+.comment {
+    background-color:rgb(243, 243, 243);
+}
+
+
+/*.post-image-container{*/
+/*max-width:100%;*/
+/*max-height: 200px;*/
+/*display:flex;*/
+/*transition: all 0.2s;*/
+/*cursor: pointer;*/
+/*overflow: hidden;*/
+/*overflow: -webkit-paged-x;*/
+/*overflow: overlay;*/
+/*}*/
+.post-image-container:hover .post-image{
+    opacity: 0.7;
+    transition: background-color 0.2s;
+    background-color: #d3d4d6;
+}
+.post-image-container:hover{
+    cursor:pointer;
+}
+.post-image-container:hover .post-image-end{
+    transition: background-color 0.2s;
+    background-color: #d5d6b1;
+}
+/*.post-image {*/
+/*transition: all 0.2s;*/
+/*flex: 1;*/
+/*max-width: 50%;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*max-height: inherit;*/
+/*}*/
+
+#reportModal .card-body {
+    font-size:10pt;
+}
+
+.post-image-end{
+    width:100%;
+    height:100%;
+    background-color: #d3d4d6;
+    transition: background-color 0.2s;
+}
+.post-image-container{
+    display:flex;
+    width:100%;
+    height: 300px;
+}
+.post-image{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    flex: 1;
+    margin: 5px;
+    border-radius: 12px;
+    overflow:hidden;
+}
+.post-image img {
+    max-width: 150%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    cursor: pointer;
+}
+.center-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(calc(-50% + 0.5px), calc(-50% + 0.5px));
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image-viewer{
+    width: 85%;
+    height: 85%;
+}
+.carousel-image{
+    height:100%;
+    cursor: initial;
+}
+.carousel-inner > .carousel-item > img {
+    max-width: 100%;
+    height: 75%;
+    /*noinspection CssInvalidPropertyValue*/
+    height: -webkit-fill-available;
+    margin: auto;
+}
+.carousel-inner{
+    height:100%;
+}
+.carousel-control-prev:hover{
+    transition: all 0.5s;
+    background-color: rgba(235, 235, 235, 0.41);
+}
+.carousel-control-next:hover{
+    transition: all 0.5s;
+    background-color:rgba(235, 235, 235, 0.41);
+}
+.carousel-control-prev{
+    transition: all 0.5s;
+}
+.carousel-control-next{
+    transition: all 0.5s;
+}
+.carousel{
+    background-color:#21252961;
+}
+.image-more-message{
+    position: absolute;
+    /*top: 69%;*/
+}
+.image-more-message span{
+    position: relative;
+    top: 222px;
+    /*left: 300px;*/
+    background-color: #c3c3c3de;
+    z-index: 2;
+    font-size: 48px;
+    border-radius: 12px;
+}
+.image-more-message .two-digit{
+    left: 274px;
+}
+
+.post-control-btn {
+    width:10%;
+    max-width: 50px;
+    height:100%;
+    /*max-height:50px;*/
+}
+
+.post-control-btn + .post-control-btn {
+    margin-left: 5px;
+}
+
+.postBtn{
+    /*width:100%;*/
+    height:100%;
+    /*max-height:50px;*/
+    font-size: 14pt;
+    float: right;
+}
+
+.comment-btn.editBtn {
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.comment-btn img {
+    height: 23px;
+    width: 23px;
+}
+
+.comment-btn.deleteBtn {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.read-more-arrow{
+    width: 2rem;
+    height: 1.3rem;
+    transition: all 0.5s ease-in-out;
+}
+.post-card-body{
+    max-height: 300px;
+    overflow: hidden;
+    transition:all 0.5s;
+}
+.read-more-btn {
+    background-color: rgb(152,152,152);
+    border-radius: 0;
+    transition:all 0.5s;
+}
+
+.post-btn-icon {
+    height:23px;
+    width:23px;
+}
+
+.btn-group .editBtn {
+    padding: 0px 0px 1px;
+    transition: all 1s ease 0s;
+}
+
+.btn-group .deleteBtn {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.card-body:hover .btn-group.post-btn-group {
+    opacity: 1;
+}
+
+.card-body .btn-group.post-btn-group{
+    transition: all 0.5s;
+    width:63%;
+    opacity: 0;
+}
+
+.report-btn {
+    cursor:pointer;
+}
+
+.card-body:hover .flag img{
+    display:initial;
+    opacity: 1;
+}
+
+.flag img {
+    height:28px;
+    width: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.notification-btn {
+    padding: 0px;
+    transition: all 0.5s;
+    width: 31%;
+}
+
+.notification-btn:hover {
+    transition: all 0.5s;
+}
+
+.notification-btn img {
+    width:26px;
+}
+
+.post.highlight {
+    background-color: #ffffe9;
+}
+
+.comment.highlight {
+    background-color: #ffffe9;
+}
+
+.comment {
+    background-color: rgb(243, 243, 243);
+}

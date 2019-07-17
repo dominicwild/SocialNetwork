@@ -1,0 +1,9 @@
+<?php //foreach($posts as $displayPost): ?>
+<!--<div class="row2">-->
+<!--    --><?//= $this->Html->image("cat.jpg", [
+//        "class" => "col",
+//        "width" => "10%",
+//    ]); ?>
+<!--    --><?//= $this->Html->div("col", "<b style='color:blue'>" . $displayPost->user->Email . ":</b><p>" . $displayPost->content . "</p>",["style" => "border: thin solid black; width:90%;", ])?>
+<!--</div>-->
+<?php //endforeach; ?>

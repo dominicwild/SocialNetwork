@@ -1,0 +1,63 @@
+.navbar-nav .active.nav-item.nav-link {
+    font-weight: 600;
+}
+
+.cloneable {
+    position: absolute;
+    top: -9999999999px;
+    left: -999999999px;
+}
+
+* {
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    -webkit-backface-visibility: hidden;
+    /*-webkit-perspective: 1000;*/
+}
+
+* #overlay {
+    -webkit-transform: initial !important;
+    font-size: 12pt;
+}
+
+body {
+
+}
+
+.animated {
+    -webkit-transform: translate3d(0, 0, 0);
+    transition: all 0.5s;
+}
+
+#search input[type="text"]{
+    width: 190px;
+    transition: 0.5s all;
+}
+
+#search input[type="text"]:focus {
+    width: 300px;
+    transition: 0.5s all;
+}
+
+#search button {
+    position:relative;
+    right: 55px;
+    outline: none !important;
+    box-shadow: none;
+}
+
+#search button .magnifying-glass {
+    width: 16px;
+    height: 16px;
+}
+
+#search button:hover .magnifying-glass {
+    fill: dodgerblue;
+}
+
+img.emojione {
+    background-color:rgba(240, 254, 217, 0.01);
+}
+
+.emojionearea .emojionearea-editor .emojioneemoji {
+    background-color:rgba(240, 254, 217, 0.01);
+}
