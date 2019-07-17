@@ -40,4 +40,6 @@ nbproject/*
 # Sass preprocessor
 .sass-cache/
 
+#Other files#
 service_account.json
+/DatabaseBackups/*

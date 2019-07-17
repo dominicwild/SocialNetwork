@@ -37,17 +37,19 @@ class UsersController extends AppController
                 return true;
             }
         } else {
-            if (in_array($action, ['login'])) {
+            if (in_array($action, ["login"])) {
                 return true;
             } else {
                 return false;
             }
         }
+
+        return false;
     }
 
     public function initialize() {
         parent::initialize();
-        $this->Auth->allow(['logout']);
+        $this->Auth->allow(['logout',"guestLogin"]);
     }
 
 
@@ -270,6 +272,19 @@ class UsersController extends AppController
                 $this->getClient();
             }
         }
+    }
+
+    public function guestLogin(){
+        $this->viewBuilder()->setTemplate("login");
+        $user = $this->Users->find()->where(["Email" => "socialdominicwild@gmail.com"])->first();
+        if($user){
+            $this->Auth->setUser($user->toArray());
+            $this->updateUser();
+            $this->request->getSession()->write("user", $user);
+        } else {
+            $this->Flash->error("Guest account not initialized. Please try again later or contact the network administrator.");
+        }
+        $this->login();
     }
 
     public function changeCommentNotifSettings(){
